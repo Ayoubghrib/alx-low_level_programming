@@ -1,28 +1,29 @@
 #!/bin/bash
+gcc -S masm=intel $CFILE
 
 
-if [ -z "$CFILE" ]; then
-  echo "CFILE variable is not set. Please set it to the path of your C source file."
-  exit 1
-fi
 
 
-if [ ! -f "$CFILE" ]; then
-  echo "The specified C source file '$CFILE' does not exist."
-  exit 1
-fi
 
 
-gcc -S -masm=intel "$CFILE"
 
-# Check if the compilation was successful
-if [ $? -eq 0 ]; then
-  echo "Compilation completed successfully."
-else
-  echo "Compilation failed."
-fi
 
-  echo "Compilation completed successfully."
-else
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

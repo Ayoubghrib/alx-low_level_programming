@@ -21,3 +21,7 @@ void print_array(int *a, int n)
 			printf("\n");
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a26a1f75affc0f62f15bbcfa5c25b3de43961f53

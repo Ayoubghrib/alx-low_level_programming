@@ -23,3 +23,7 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a26a1f75affc0f62f15bbcfa5c25b3de43961f53
